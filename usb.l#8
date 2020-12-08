@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -106,50 +106,6 @@
 </polygon>
 <wire x1="-4.32" y1="0.55" x2="-4.32" y2="-0.55" width="1.2" layer="29"/>
 <wire x1="4.32" y1="0.55" x2="4.32" y2="-0.55" width="1.2" layer="29"/>
-<polygon width="0.001" layer="46">
-<vertex x="-4.62" y="0.55"/>
-<vertex x="-4.62" y="-0.55" curve="180"/>
-<vertex x="-4.02" y="-0.55"/>
-<vertex x="-4.02" y="0.55" curve="180"/>
-</polygon>
-<polygon width="0.001" layer="46">
-<vertex x="4.02" y="0.55"/>
-<vertex x="4.02" y="-0.55" curve="180"/>
-<vertex x="4.62" y="-0.55"/>
-<vertex x="4.62" y="0.55" curve="180"/>
-</polygon>
-<polygon width="0.001" layer="17">
-<vertex x="-3.82" y="-3.75"/>
-<vertex x="-3.82" y="-4.55" curve="-180"/>
-<vertex x="-4.82" y="-4.55"/>
-<vertex x="-4.82" y="-3.75" curve="-180"/>
-</polygon>
-<polygon width="0.001" layer="17">
-<vertex x="4.82" y="-3.75"/>
-<vertex x="4.82" y="-4.55" curve="-180"/>
-<vertex x="3.82" y="-4.55"/>
-<vertex x="3.82" y="-3.75" curve="-180"/>
-</polygon>
-<wire x1="-4.32" y1="-3.75" x2="-4.32" y2="-4.55" width="1.2" layer="29"/>
-<wire x1="4.32" y1="-3.75" x2="4.32" y2="-4.55" width="1.2" layer="29"/>
-<polygon width="0.001" layer="46">
-<vertex x="-4.62" y="-3.75"/>
-<vertex x="-4.62" y="-4.55" curve="180"/>
-<vertex x="-4.02" y="-4.55"/>
-<vertex x="-4.02" y="-3.75" curve="180"/>
-</polygon>
-<polygon width="0.001" layer="46">
-<vertex x="4.02" y="-3.75"/>
-<vertex x="4.02" y="-4.55" curve="180"/>
-<vertex x="4.62" y="-4.55"/>
-<vertex x="4.62" y="-3.75" curve="180"/>
-</polygon>
-<wire x1="-4.32" y1="1.4" x2="4.32" y2="1.4" width="0.127" layer="21"/>
-<wire x1="-4.32" y1="-1.45" x2="-4.32" y2="-2.85" width="0.127" layer="21"/>
-<wire x1="4.32" y1="-1.45" x2="4.32" y2="-2.85" width="0.127" layer="21"/>
-<wire x1="-4.32" y1="-6.85" x2="4.32" y2="-6.85" width="0.127" layer="21"/>
-<wire x1="-4.32" y1="-5.45" x2="-4.32" y2="-6.85" width="0.127" layer="21"/>
-<wire x1="4.32" y1="-5.45" x2="4.32" y2="-6.85" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -177,18 +133,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TYPE-C-16PIN">
-<gates>
-<gate name="G$1" symbol="TYPE-C-16PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TYPE-C-16PIN">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </drawing>

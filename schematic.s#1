@@ -137,10 +137,6 @@ DIN A3, landscape with location and doc. field</description>
 <sheets>
 <sheet>
 <plain>
-<wire x1="27.94" y1="241.3" x2="27.94" y2="231.14" width="0.1524" layer="94"/>
-<wire x1="27.94" y1="231.14" x2="43.18" y2="231.14" width="0.1524" layer="94"/>
-<wire x1="43.18" y1="231.14" x2="43.18" y2="241.3" width="0.1524" layer="94"/>
-<wire x1="43.18" y1="241.3" x2="27.94" y2="241.3" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -152,11 +148,6 @@ DIN A3, landscape with location and doc. field</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<wire x1="43.18" y1="238.76" x2="48.26" y2="238.76" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
