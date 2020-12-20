@@ -9390,9 +9390,9 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1810251713_Rainsun-microwa
 </deviceset>
 </devicesets>
 </library>
-<library name="alps" urn="urn:adsk.eagle:library:25435741">
+<library name="alps">
 <packages>
-<package name="SKSCLDE010" urn="urn:adsk.eagle:footprint:25435750/1" library_version="2">
+<package name="SKSCLDE010">
 <wire x1="1.75" y1="1.4" x2="-1.75" y2="1.4" width="0.1" layer="21"/>
 <wire x1="-1.75" y1="1.4" x2="-1.75" y2="-1.4" width="0.1" layer="21"/>
 <wire x1="-1.75" y1="-1.4" x2="-0.8" y2="-1.4" width="0.1" layer="21"/>
@@ -9412,15 +9412,8 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1810251713_Rainsun-microwa
 <hole x="0" y="-0.9" drill="0.55"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="SKSCLDE010" urn="urn:adsk.eagle:package:25435764/2" type="model" library_version="2">
-<packageinstances>
-<packageinstance name="SKSCLDE010"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="SPST_4PIN" urn="urn:adsk.eagle:symbol:25435756/1" library_version="2">
+<symbol name="SPST_4PIN">
 <wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="1.524" x2="-1.27" y2="1.524" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="1.524" x2="0" y2="1.524" width="0.254" layer="94"/>
@@ -9441,7 +9434,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1810251713_Rainsun-microwa
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SKSCLDE010" urn="urn:adsk.eagle:component:25435771/2" prefix="B" uservalue="yes" library_version="2">
+<deviceset name="SKSCLDE010" prefix="B" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SPST_4PIN" x="2.54" y="0"/>
 </gates>
@@ -9453,9 +9446,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1810251713_Rainsun-microwa
 <connect gate="G$1" pin="3" pad="4"/>
 <connect gate="G$1" pin="4" pad="3"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25435764/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -10471,66 +10461,6 @@ DIN A3, landscape with extra doc field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Connectors" urn="urn:adsk.eagle:library:25488128">
-<packages>
-<package name="1.25X2-FLAT" urn="urn:adsk.eagle:footprint:25488129/1" library_version="1">
-<smd name="0" x="-3.175" y="-1.45" dx="2.1" dy="3" layer="1"/>
-<smd name="3" x="3.175" y="-1.45" dx="2.1" dy="3" layer="1"/>
-<smd name="1" x="-0.625" y="1.45" dx="0.8" dy="1.6" layer="1"/>
-<smd name="2" x="0.625" y="1.45" dx="0.8" dy="1.6" layer="1"/>
-<wire x1="-3.7" y1="0.85" x2="-3.7" y2="-3.55" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="-3.55" x2="3.68" y2="-3.55" width="0.127" layer="21"/>
-<wire x1="3.7" y1="-3.55" x2="3.7" y2="0.85" width="0.127" layer="51"/>
-<wire x1="3.7" y1="0.85" x2="-3.7" y2="0.85" width="0.127" layer="21"/>
-<wire x1="-3.7" y1="-3.55" x2="3.7" y2="-3.55" width="0.127" layer="51"/>
-<wire x1="3.7" y1="0.85" x2="-3.7" y2="0.85" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="-3.55" x2="-3.7" y2="-3.17" width="0.127" layer="21"/>
-<wire x1="3.7" y1="-3.55" x2="3.7" y2="-3.17" width="0.127" layer="21"/>
-<wire x1="-3.7" y1="0.85" x2="-3.7" y2="0.34" width="0.127" layer="21"/>
-<wire x1="3.7" y1="0.34" x2="3.7" y2="0.85" width="0.127" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="1.25X2-FLAT" urn="urn:adsk.eagle:package:25488131/1" type="box" library_version="1">
-<packageinstances>
-<packageinstance name="1.25X2-FLAT"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="2PIN" urn="urn:adsk.eagle:symbol:25488130/1" library_version="1">
-<pin name="2" x="-7.62" y="2.54" length="middle"/>
-<pin name="1" x="-7.62" y="-2.54" length="middle"/>
-<wire x1="-5.08" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<circle x="-2.54" y="2.54" radius="1.481059375" width="0.254" layer="94"/>
-<circle x="-2.54" y="-2.54" radius="1.27" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ZH1.25" urn="urn:adsk.eagle:component:25488132/1" library_version="1">
-<gates>
-<gate name="G$1" symbol="2PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1.25X2-FLAT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25488131/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10590,11 +10520,11 @@ DIN A3, landscape with extra doc field</description>
 <part name="ANT1" library="antenna" library_urn="urn:adsk.eagle:library:25406608" deviceset="AN9520-245" device="" package3d_urn="urn:adsk.eagle:package:25406611/2"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="200"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="470"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="12k"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="12k"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="K1" library="alps" library_urn="urn:adsk.eagle:library:25435741" deviceset="SKSCLDE010" device="" package3d_urn="urn:adsk.eagle:package:25435764/2" value="RESET"/>
+<part name="K1" library="alps" deviceset="SKSCLDE010" device="" value="RESET"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="12k"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10630,7 +10560,6 @@ DIN A3, landscape with extra doc field</description>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="470"/>
 <part name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA3_L" device=""/>
-<part name="U$1" library="Connectors" library_urn="urn:adsk.eagle:library:25488128" deviceset="ZH1.25" device="" package3d_urn="urn:adsk.eagle:package:25488131/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10957,7 +10886,6 @@ DIN A3, landscape with extra doc field</description>
 <attribute name="SHEET" x="373.38" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="304.8" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="U$1" gate="G$1" x="109.22" y="76.2" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -11163,11 +11091,6 @@ DIN A3, landscape with extra doc field</description>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="22.86" y1="40.64" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
-<label x="93.98" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -11451,11 +11374,6 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="30.48" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <junction x="30.48" y="50.8"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
-<label x="93.98" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
